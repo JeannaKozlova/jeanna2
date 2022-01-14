@@ -1,7 +1,7 @@
 .main-section {
 	min-height: 766px;
 	background-color: #9960F6;
-	overflow: hidden;
+
 
 	@media screen and (max-width: 375px) {
 		min-height: 579px;
@@ -93,7 +93,7 @@
 			font-size: 30px;
 		}
 
-		@media screen and (max-width: 375px) {
+		@media screen and (max-width: 480px) {
 			margin-top: 50px;
 			font-size: 20px;
 			line-height: 24px;
@@ -113,6 +113,7 @@
 		width: 163px;
 		height: 50px;
 		margin-top: 171px;
+		border: 0;
 
 		&_structure {
 			background: #FFDB00;
